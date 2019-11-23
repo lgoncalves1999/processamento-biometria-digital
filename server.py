@@ -21,7 +21,7 @@ def upload_file():
         filename = secure_filename(email + '.png')
         f.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
         if (name != '' and email != '' and level != ''):
-            return name + ' - ' + email + ' - ' + level
+            return name + ' - ' + email + ' - ' + str(level)
         else:
             return 'Algum campo não foi preenchido corretamente, por favor revise os mesmos e envie o formulário novamente!'
     else:
