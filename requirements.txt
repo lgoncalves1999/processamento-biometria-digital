@@ -25,7 +25,7 @@ enhance==1.2
 eyeD3==0.8.10
 filelock==3.0.12
 Fiona==1.8.8
-Flask==0.11.1
+Flask==1.0
 Fuzzy==1.2.2
 fuzzywuzzy==0.17.0
 geographiclib==1.50
