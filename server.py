@@ -35,7 +35,7 @@ def compare_file():
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], 'comparacao.png'))
             comp = comparacao.main(email2)
             if(comp == True):
-                return 'Biometria confirmada!'
+                return 'Biometria confirmada!' + ' - Email:' + email
             return 'Biometria negada!'
         else:
             return 'Email nao cadastrado'
