@@ -90,7 +90,7 @@ def main(image1):
 	# Plotar os campos chaves
 	img4 = cv2.drawKeypoints(img1, kp1, outImage=None)
 	img5 = cv2.drawKeypoints(img2, kp2, outImage=None)
-	f, axarr = plt.subplots(1,2)
+	# f, axarr = plt.subplots(1,2)
 	# axarr[0].imshow(img4)
 	# axarr[1].imshow(img5)
 	# plt.show()
