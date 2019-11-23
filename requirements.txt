@@ -69,7 +69,7 @@ parso==0.5.1
 pexpect==4.7.0
 phonetics==1.0.5
 pickleshare==0.7.5
-Pillow==6.1.0
+Pillow==6.2.0
 pluggy==0.13.0
 point==0.0.1
 prompt-toolkit==2.0.9
