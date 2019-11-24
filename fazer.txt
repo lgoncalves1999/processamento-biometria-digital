@@ -1,4 +1,0 @@
-Três rotas 
-    - Upload cadastro --- OK
-    - Acesso ao sistema (Comparação de digital -- ver se existe atrelado ao e-mail) - ok
-    - Editar cadastro (Front me envia uma digital, vejo se ela existe e retorno os dados do cadastro MATCH na digital)
