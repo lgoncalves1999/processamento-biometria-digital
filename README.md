@@ -3,6 +3,11 @@ Projeto de Processamento de Biometrias
 
 Todos os post podem ser feito com o Postman/Insomnia no formato form-data.
 
+Requerimentos:
+    - Instalar Postman
+    - rodar o comando pip install -r requirements.txt para instalar todas depedências do projeto.
+    - rodar o arquivo server.py - python server.py
+
 1 - Cadastro de Biometria
 
 Enviar uma biometria com o nome, email e level e o arquivo file.
